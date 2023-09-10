@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>计科211胡文静</title>
+ <meta charset="UTF-8">
+ <style type="text/css">
+a:link {color:blue;}       
+a:visited {color:green;}    
+a:hover {color:orange;}  
+a:active {color:#0000FF;}
+p{
+line-height:1.6em;
+text-indent:10em;
+	font-family:"Times New Roman";
+	font-size:20px;
+ 
+}
+ video {
+    width: 50%;
+    height: 50%;
+}
+ body {
+ font-size:30px;
+ margin-top:100px;
+	margin-bottom:100px;
+	margin-right:100px;
+	margin-left:100px;
+ font-style:oblique;
+	background-color:#d0e4fe;
+}
+.but{
+ border-radius: 12px;
+ color: black;
+ background-color: #e7e7e7;
+ color: black;
+ font-size: 20px;
+}
+.but:hover {
+    background-color: #555555;
+    color: white;
+}
+.but:active{
+ background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+ 
+}
+h1 {
+	color:white;
+	text-align:center;
+	text-shadow:0.1em 0.1em 0.3em #333;
+}
+ details{
+ float:right;
+ }
+#h{
+float:right;
+margin-left:20px;
+}
+ 
+.link:hover{
+color:red
+}
+ 
+ 
+  </style>
+<script language="javascript">
+function sing1(){
+            const music = new Audio("ltx.mp3");
+		   
+			var r=confirm("准备好了吗？");
+		       
+	        var me = document.getElementById('me');
+		   if(r){
+				music.play(); }
+}
+ 
+
+ 
+</script>
+
+
+ </head>
+ <body>
+ 
+ <header> 
+
+ <h1> 
+ 亲爱的莉姐：你好！ 
+ </h1> 
+ </header>
+ 
+ <article>
+ 
+ <h3><video hidden src="lf.mp3" id="lf"> </video>
+ <div><a href="hwj.jpg" target="_blank"> <img src="hwj.jpg" width="160" height="200" alt="头像" id="h">  </a></div>
+    <p> 在一个风和日丽的下午，我们相遇了。你服如凝脂、貌比罗敷、面若桃花、千娇百媚、倾国倾城、天生丽质、国色天香、风姿绰约，两弯似蹙非蹙罥烟眉，一双似泣非泣含情目，闲静时如娇花照水，行动处似弱柳扶风.......
+	而我，我是夜空中最亮的星，计科211的一名女生，叫胡文静。这是我的标准证件照，请欣赏：</p> 
+	
+	 <p>我最喜欢的动漫是海贼王。于是我附上了三张图片</p>
+	<details id="detail" ontoggle="lf.play()"> 
+	<summary><strong>海贼王图片</strong></summary>
+	<figure> 
+	<img src="hzw1.jpg" width="380" height="550" align-"cneter" alt="海贼王">
+	<img src="hzw2.jpg" width="380" height="550" align-"cneter" alt="海贼王">
+	<img src="hzw3.jpg" width="380" height="550" align-"center" alt="海贼王">
+	</figure> 
+	</details>
+
+ <video src="me.mp4" hidden width="400px" height="300px" id="me" controls="controls"  loop="false";>  </video>
+       <p>我喜欢唱歌，最喜欢的歌手是周杰伦。请欣赏我的翻唱兰亭序：
+	   <input type="button" class="but" value="点击欣赏" onclick="javascript:sing1()"/></p>
+	   
+	  
+	  
+	  <p>自我介绍完毕。 最后想说一句：莉姐笑起来太好看了！！	
+	 
+</h3>	
+ </article>
+  
+	  <footer> 
+	   <button onclick="javascript:sing1()"><small><cite> 再听一遍 </cite></small></button> 
+	  </footer>
+ </body>
+</html>
